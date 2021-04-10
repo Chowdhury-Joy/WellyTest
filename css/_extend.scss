@@ -1,0 +1,78 @@
+.button-1{
+        font-size: 14px;
+        font-family: 'Kanit', sarif;
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+}
+
+.button-2{
+    a {
+        text-decoration: none;
+        border: 2px solid #010100;
+        padding: 15px;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        display: inline-block;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: -2px;
+            width: calc(100% + 6px);
+            height: calc(100% - 10px);
+            background-color: #ffffff;
+            transition: all 0.5s ease-in-out;
+            transform: scaleY(1);
+        }
+        &:hover {
+            &::before {
+                transform: scaleY(0);
+            }
+            &::after {
+                transform: scaleX(0);
+            }
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: -5px;
+            width: calc(100% - 10px);
+            height: calc(100% + 10px);
+            background-color: #ffffff;
+            transition: all 0.5s ease-in-out;
+            transform: scaleX(1);
+        }
+        span {
+            position: relative;
+            z-index: 3;
+        }
+    }
+}
+
+
+
+.button-3 {
+    // background-color: #4CAF50;
+    border: 1px solid #f44336;
+    color: #f44336;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 35%;
+    font-family: 'Kanit', sarif;
+    letter-spacing: 2px;
+  }
+  
+  .button-3:hover {
+    background-color: #f44336;
+    color: white;
+  }
