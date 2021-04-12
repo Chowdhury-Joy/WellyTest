@@ -1,0 +1,111 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #003A34;
+    color: white;
+
+    >* {
+        margin-top: 5%;
+    }
+
+    .footer-top {
+        display: flex;
+        justify-content: space-evenly;
+
+        .footer-top-1 {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin-top: 10px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+
+        .footer-top-2 {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin-top: 10px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+
+        .footer-top-3 {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin-top: 10px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                font-weight: 700;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 2px 0;
+                    border-bottom: #ff5100 2px solid;
+                }
+            }
+        }
+
+        .footer-top-4 {
+            display: flex;
+            flex-direction: column;
+
+
+            .footer-top-4-mail-full {}
+
+            span {
+                margin-top: 10px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .footer-top-4-mail {
+                display: flex;
+                margin-top: 20px;
+                border-bottom: 2px white solid;
+
+                .footer-top-4-txt {
+
+                    input[type=email] {
+                        width: 100%;
+                        font-size: 16px;
+                        background-color: transparent;
+                        color: white;
+                        padding: 5px 0px;
+                        // margin: 8px 0;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .footer-top-4-svg {
+                    svg {
+                        margin-left: 180px;
+                        // margin-top: 10px;
+                        fill: #ff5100;
+                        border: #ff5100 2px solid;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer-mid {
+        .footer-mid-certification {}
+
+        .footer-mid-social {
+            img {}
+        }
+    }
+}

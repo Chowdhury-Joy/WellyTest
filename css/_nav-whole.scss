@@ -11,11 +11,14 @@
     }
     .nav-whole {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     .nav-left {
         width: 100%;
         text-align: left;
+// .mob {
+//     display: none;
+// }
     }
     .nav-center {
         width: 100%;
