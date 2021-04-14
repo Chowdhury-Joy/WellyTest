@@ -1,9 +1,12 @@
 @import 'extend';
 @import 'nav-whole';
-@import 'nav-whole-mobile';
+@import 'nav-whole-responsive';
 @import 'index';
+@import 'index-tab';
 @import 'index-mobile';
 @import 'footer';
+@import 'footer-tab';
+@import 'footer-mobile';
 
 
 
@@ -19,4 +22,5 @@
 
 body{
     background-color: #FFFBF5;
+    overflow: hidden;
 }
