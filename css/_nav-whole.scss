@@ -3,6 +3,9 @@
 .main-nav {
     .hamburger {
         display: none;
+        &:focus{
+outline: none;
+        }
     .fas.fa-bars {
     }
     &:hover {}

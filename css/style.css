@@ -97,6 +97,10 @@
   display: none;
 }
 
+.nav-container .main-nav .hamburger:focus {
+  outline: none;
+}
+
 .nav-container .main-nav .nav-whole {
   display: -webkit-box;
   display: -ms-flexbox;
