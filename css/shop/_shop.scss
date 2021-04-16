@@ -24,13 +24,15 @@
     scroll-behavior: smooth;
     // align-items: center;
   .shop-Ptype {
-
+margin-top: 120px;
     h1 {
 text-align: center;
 text-transform: uppercase;
+font-size: 3rem;
     }
     h3 {
         text-align: center;
+        font-size: 1.2rem;
     }
 
     .shop-Ptype-grid {
@@ -79,4 +81,34 @@ text-transform: uppercase;
       }
     }
   }
+}
+
+
+
+@media all and (max-width: 500px){
+    .shop-banner-nav {
+
+        height: 80px;
+    
+        ul{
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                margin: 1% 0;
+            }
+        }
+        .shop-banner-button{
+            font-size: 12px;
+            letter-spacing: 0;
+            margin: 0 8px;
+        }
+    }
+    #shop-whole{
+        .shop-Ptype {
+            margin-top: 5px;
+        }
+    }
+
 }

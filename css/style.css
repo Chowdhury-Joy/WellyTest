@@ -1457,13 +1457,19 @@
   scroll-behavior: smooth;
 }
 
+#shop-whole .shop-Ptype {
+  margin-top: 120px;
+}
+
 #shop-whole .shop-Ptype h1 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 
 #shop-whole .shop-Ptype h3 {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 #shop-whole .shop-Ptype .shop-Ptype-grid {
@@ -1535,6 +1541,35 @@
 #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt span:nth-child(3) {
   font-size: 16px;
   font-family: 'Kanit', sarif;
+}
+
+@media all and (max-width: 500px) {
+  .shop-banner-nav {
+    height: 80px;
+  }
+  .shop-banner-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .shop-banner-nav ul li {
+    list-style: none;
+    margin: 1% 0;
+  }
+  .shop-banner-nav .shop-banner-button {
+    font-size: 12px;
+    letter-spacing: 0;
+    margin: 0 8px;
+  }
+  #shop-whole .shop-Ptype {
+    margin-top: 5px;
+  }
 }
 
 body {
