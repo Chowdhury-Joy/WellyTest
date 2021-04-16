@@ -4,7 +4,7 @@
     .hamburger {
         display: none;
         &:focus{
-outline: none;
+            outline: none;
         }
     .fas.fa-bars {
     }
@@ -26,6 +26,9 @@ outline: none;
     .nav-center {
         width: 100%;
         text-align: center;
+        a{
+            text-decoration: none;
+        }
     }
     .nav-right {
         width: 100%;

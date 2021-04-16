@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
-.button-1, .nav-button, .index-banner-nav .banner-button {
+.button-1, .nav-button, .index-banner-nav .banner-button, .shop-banner-wrapper .shop-banner-nav .shop-banner-button {
   font-size: 14px;
   font-family: 'Kanit', sarif;
   letter-spacing: 2px;
@@ -124,6 +124,10 @@
 .nav-container .main-nav .nav-whole .nav-center {
   width: 100%;
   text-align: center;
+}
+
+.nav-container .main-nav .nav-whole .nav-center a {
+  text-decoration: none;
 }
 
 .nav-container .main-nav .nav-whole .nav-right {
@@ -1412,6 +1416,127 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+}
+
+.shop-banner-wrapper {
+  scroll-behavior: smooth;
+}
+
+.shop-banner-wrapper .shop-banner-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  z-index: 6;
+  height: 60px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.shop-banner-wrapper #shop-whole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  scroll-behavior: smooth;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype h3 {
+  text-align: center;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-image {
+  margin-top: 30px;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-image img {
+  max-width: 240px;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt > * {
+  margin-top: 10px;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt span:nth-child(1) {
+  font-size: 23px;
+  font-family: 'Roboto', sarif;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt span:nth-child(2) {
+  font-size: 14px;
+  font-family: 'Poppins', sarif;
+  letter-spacing: 1px;
+  width: 250px;
+  text-align: center;
+}
+
+.shop-banner-wrapper #shop-whole .shop-Ptype .shop-Ptype-grid .shop-Ptype-flex .shop-Ptype-flex-txt span:nth-child(3) {
+  font-size: 16px;
+  font-family: 'Kanit', sarif;
 }
 
 body {
