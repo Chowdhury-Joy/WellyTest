@@ -1,8 +1,8 @@
 .shop-banner-nav {
     position: sticky;
     top: 0%;
-    background-color: #FFF;
-    height: 60px;
+    background-color: rgba(180, 161, 161, 0.76);
+    height: 50px;
 
     ul{
         display: flex;
@@ -24,7 +24,7 @@
     scroll-behavior: smooth;
     // align-items: center;
   .shop-Ptype {
-margin-top: 120px;
+margin-top: 100px;
     h1 {
 text-align: center;
 text-transform: uppercase;
@@ -88,7 +88,7 @@ font-size: 3rem;
 @media all and (max-width: 500px){
     .shop-banner-nav {
 
-        height: 80px;
+        height: 50px;
     
         ul{
             display: flex;
@@ -96,7 +96,7 @@ font-size: 3rem;
             justify-content: space-evenly;
             li{
                 list-style: none;
-                margin: 1% 0;
+                margin: 4% 0;
             }
         }
         .shop-banner-button{

@@ -1422,8 +1422,8 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
-  background-color: #FFF;
-  height: 60px;
+  background-color: rgba(180, 161, 161, 0.76);
+  height: 50px;
 }
 
 .shop-banner-nav ul {
@@ -1458,7 +1458,7 @@
 }
 
 #shop-whole .shop-Ptype {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 #shop-whole .shop-Ptype h1 {
@@ -1545,7 +1545,7 @@
 
 @media all and (max-width: 500px) {
   .shop-banner-nav {
-    height: 80px;
+    height: 50px;
   }
   .shop-banner-nav ul {
     display: -webkit-box;
@@ -1560,7 +1560,7 @@
   }
   .shop-banner-nav ul li {
     list-style: none;
-    margin: 1% 0;
+    margin: 4% 0;
   }
   .shop-banner-nav .shop-banner-button {
     font-size: 12px;
