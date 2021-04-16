@@ -1422,9 +1422,11 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
-  z-index: 6;
+  background-color: #FFF;
   height: 60px;
-  background-color: white;
+}
+
+.shop-banner-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1434,11 +1436,11 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  margin: 15px auto;
+}
+
+.shop-banner-nav ul li {
+  list-style: none;
+  margin: 1% 0;
 }
 
 #shop-whole {
@@ -1537,6 +1539,5 @@
 
 body {
   background-color: #FFFBF5;
-  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

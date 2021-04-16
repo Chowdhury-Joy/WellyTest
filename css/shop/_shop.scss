@@ -1,17 +1,18 @@
-
 .shop-banner-nav {
     position: sticky;
     top: 0%;
-    z-index: 6;
+    background-color: #FFF;
     height: 60px;
-    background-color: white;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    margin: 15px auto;
 
+    ul{
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        li{
+            list-style: none;
+            margin: 1% 0;
+        }
+    }
     .shop-banner-button{
         @extend .button-1;  // from nav-whole
     }
