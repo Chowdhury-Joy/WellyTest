@@ -39,6 +39,9 @@ font-size: 3rem;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 10px;
+        a{
+            text-decoration: none;
+        }
       .shop-Ptype-flex {
           display: flex;
           flex-direction: column;

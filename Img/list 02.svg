@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="245" height="41" viewBox="0 0 245 41">
+  <g id="Group_3" data-name="Group 3" transform="translate(-60 -195)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-2 -1)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(62 212)" fill="#014c45" stroke="#707070" stroke-width="1">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="198.105" transform="translate(68.5 218.5)" fill="none" stroke="#014c45" stroke-width="3"/>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(266 196)" fill="#014c45" stroke="#707070" stroke-width="1">
+        <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+        <circle cx="20.5" cy="20.5" r="20" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-2 -1)">
+      <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(62 212)" fill="#014c45" stroke="#707070" stroke-width="1">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+      </g>
+      <line id="Line_1-2" data-name="Line 1" x2="198.105" transform="translate(68.5 218.5)" fill="none" stroke="#014c45" stroke-width="3"/>
+      <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(266 196)" fill="#014c45" stroke="#707070" stroke-width="1">
+        <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+        <circle cx="20.5" cy="20.5" r="20" fill="none"/>
+      </g>
+    </g>
+    <text id="_2" data-name="2" transform="translate(279 226)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+    <text id="_2-2" data-name="2" transform="translate(279 226)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

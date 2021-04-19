@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welly | HomePage</title>
+    <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+<section class="nav-container">
+
+    <div class="main-nav">
+        <div class="nav-whole" id="nav-whole">
+        <div class="nav-left">
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-ul" id="nav-ul">
+                <div class="mob-search-full mob">
+                    <input type="text" class="mob-search" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <a class="nav-button" href="">INSIDE THE TIN</a>
+                <a class="nav-button" href="">ABOUT</a>
+                <a class="nav-button" href="">STORE LOCATOR</a>
+                <a href="" class="mob mob-login nav-button">LOGIN</a>
+        </div>
+
+            </div>
+
+            <div class="nav-center">
+                <h1><a href="index.html">WELLY</a></h1>
+            </div>
+
+            <div class="nav-right">
+
+                <div class="search-full desk">
+                    <input type="text" placeholder="Search...">
+                    <div class="search"></div>
+                </div>
+
+                <div href="" class="i-login nav-button desk">LOGIN</div>
+                <div href="" class="i-cart nav-button">CART</div>
+            </div>
+
+        </div>
+    </div>
+          <script src="./js/nav-whole.js"></script>  
+</section>
+
+
+
+<!--!! Main section starts here -->
+
+<section class="products-whole">
+        <!--?? top view of product page -->
+    <article class="products-top">
+
+        <div class="product-top-left">
+
+            <div class="products-image-main">
+                <img src="./Img/collection/IC_AssortedFloral-thumb_1700x.jpg" alt="" id="productsSlider">
+            </div>
+            <div class="products-image-thumb">
+
+                    <li onClick="imgSlider('./Img/collection/products/WE_Assorted_Floral_front_view_1720x.jpg')"><img src="./Img/collection/products/WE_Assorted_Floral_front_view_320x.jpg" alt=""></li>
+                    <li onClick="imgSlider('./Img/collection/products/WE_Assorted_Floral_back_view_1720x.jpg')"><img src="./Img/collection/products/WE_Assorted_Floral_back_view_320x.jpg" alt=""></li>
+                    <li onClick="imgSlider('./Img/collection/products/WE_Assorted_Floral_overview_1720x.jpg')"><img src="./Img/collection/products/WE_Assorted_Floral_overview_320x.jpg" alt=""></li>
+                    <li onClick="imgSlider('./Img/collection/products/WE_Assorted_Floral_3Q_view_1720x.jpg')"><img src="./Img/collection/products/WE_Assorted_Floral_3Q_view_320x.jpg" alt=""></li>
+
+            </div> 
+        </div>
+        <div class="product-top-right">
+            <div class="pro-top-rig-name">
+                <span>Bravery Badges Floral</span>
+            </div>
+            <div class="pro-top-rig-sub-name">
+                <span>Assorted Flex Fabric Bandages</span>
+            </div>
+            <div class="pro-top-rig-rate-review">
+                <div class="pro-top-rig-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span> (25)</span>
+                </div>
+                <div class="pro-top-rig-review">
+                    Write a Review
+                </div>
+            </div>
+            <div class="pro-top-rig-bar"></div>
+
+            <div class="pro-top-rig-price-quantity">
+                <div class="pro-top-rig-price">$ 7.99</div>
+                <div class="pro-top-rig-quantity">
+                    <button id="subtract" onclick="down()">-</button>
+                    <h1 id="counter">1</h1>
+                    <button id="add" onclick="up()">+</button>
+                </div>
+            </div>
+            <div class="pro-top-rig-promo">
+                Free shipping on orders over $45
+            </div>
+            <div class="pro-top-rig-btn">
+                ADD TO CART
+            </div>
+            <div class="pro-top-rig-des">
+                Our bandages keep you protected and prepared for anything that comes your way. This assorted pack has something for every wound with four sizes and a few patterns to choose from. The bandage seals on all four sides to help keep out germs and dirt.
+            </div>
+            <div class="pro-top-rig-point">
+                <ul>
+                    <li>48 count flex fabric bandages</li>
+                    <li>Small, medium and large standard size bandages and a few curvy squares</li>
+                    <li>Three floral patterns</li>
+                    <li>Tin container that's reusable, recyclable, and dare we say collectible?</li>
+                    <li>Latex free</li>
+                </ul>
+            </div>
+        </div>
+
+    </article>
+
+    <article class="product-mid">
+        <div class="product-mid-header">When You're Ready for Anything, <br> Everything is Possible </div>
+        <div class="product-mid-img">
+            <div class="product-mid-img-left">
+                <img src="./Img/collection/products/WE_Floral_Hero_1700x.png" alt="">
+            </div>
+            <div class="product-mid-img-txt">
+                <ul>
+                    <li><p class="pro-m-i-t-1"><img src="./Img/list 01.svg" alt=""> <span>Premium flexible fabric bandages move with your every move</span> </p></li>
+                    <li><p class="pro-m-i-t-2"><img src="./Img/list 02.svg" alt=""><span> Floral patterns help you wear your bumps and cuts with pride</span></p></li>
+                    <li><p class="pro-m-i-t-3"><img src="./Img/list 03.svg" alt=""><span> Durable, stackable tin packaging helps keep your medicine cabinet organized</span></p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-mid-img-txt-mob">
+            <div class="prod-mid-img-txt-mob-num">
+                <button id="prod-mid-img-txt-mob-num1">1</button>
+                <button id="prod-mid-img-txt-mob-num2">2</button>
+                <button id="prod-mid-img-txt-mob-num3">3</button>
+            </div>
+            <div id="prod-mid-img-txt-mob-txt">
+                <div id="prod-mid-img-txt-mob-txt1">Premium flexible fabric bandages move with your every move</div>
+                <div id="prod-mid-img-txt-mob-txt2">Floral patterns help you wear your bumps and cuts with pride</div>
+                <div id="prod-mid-img-txt-mob-txt3">Durable, stackable tin packaging helps keep your medicine cabinet organized</div>
+            </div>
+        </div>
+    </article>
+
+    <article class="product-last">
+        <div class="product-last-top">
+                <div class="product-last-bar1"></div>
+                <div class="product-last-title">Customer Review</div>
+                <div class="product-last-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="pro-last-rate-topic">Based on <span class="pro-last-rate-nmbr">25</span> reviews</span> 
+                </div>
+                <div class="product-last-write">WRITE A REVIEW</div>
+                <div class="product-last-bar2"></div>
+        </div>
+        <div class="product-last-list">
+            <div class="product-last-list-all">
+                <div class="prod-la-li-all-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                </div>
+                <div class="prod-la-li-all-point">
+                    Best Bandages
+                </div>
+                <div class="prod-la-li-all-name-date">
+                    <span class="prod-la-li-all-name">Roy</span> on <span class="prod-la-li-all-date"> Jan 25, 2021</span>
+                </div>
+                <div class="prod-la-li-all-des">Love the colors but most importantly, they seal well, the flex is great and the container is wonderful!</div>
+            </div>
+            <div class="product-last-list-all">
+                <div class="prod-la-li-all-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                </div>
+                <div class="prod-la-li-all-point">
+                    Size(s)
+                </div>
+                <div class="prod-la-li-all-name-date">
+                    <span class="prod-la-li-all-name">Dav</span> on <span class="prod-la-li-all-date"> Feb 29, 2021</span>
+                </div>
+                <div class="prod-la-li-all-des">What are the dimensions of the tin(s)</div>
+            </div>
+            <div class="product-last-list-all">
+                <div class="prod-la-li-all-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                </div>
+                <div class="prod-la-li-all-point">
+                    Love these
+                </div>
+                <div class="prod-la-li-all-name-date">
+                    <span class="prod-la-li-all-name">Sue</span> on <span class="prod-la-li-all-date"> Dec 29, 2020</span>
+                </div>
+                <div class="prod-la-li-all-des">Love these bandages. I'm allergic to just about every other bandage and as a clutz this made for very bulky first aid. My sister bought these and I tried them on a non wound to see if I had a reaction and no reaction so I bought a bunch and absolutely live them. The only issue I have is I have way too many of one size and not enough of ones I need. Wish I could buy specific sizes.</div>
+            </div>
+        </div>
+    </article>
+</section>
+
+
+<!--!! Footr starts here -->
+
+<section class="footer">
+    <article class="footer-top">
+        <div class="footer-top-1">
+            <span>PRODUCTS</span>
+            <span>INSIDE THE TIN</span>
+            <span>BEYOND THE TIN</span>
+            <span>FAQ</span>
+            <span>PRESS</span>
+            <span>MEDIA KIT</span>
+        </div>
+        <div class="footer-top-2">
+            <span>STORE LOCATOR</span>
+            <span>CAREERS</span>
+            <span>BULK</span>
+            <span>WHOLESALE</span>
+            <span>ACCESSIBILITY</span>
+        </div>
+        <div class="footer-top-3">
+            <span>CONTACT US</span>
+            <span><a href="">hello@getwelly.com</a></span>
+            <span><a href="">press@getwelly.com</a></span>
+            <span>1 (833) BE-WELLY</span>
+        </div>
+        <div class="footer-top-4">
+            <div class="footer-top-4-mail-full">
+                <span>STAY IN TOUCH</span>
+                <div class="footer-top-4-mail">
+                    <div class="footer-top-4-txt">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="footer-top-4-svg">
+                                                <svg width="42" height="20" viewBox="0 0 72 50" xmlns="http://www.w3.org/2000/svg">
+                        <g id="right 1" clip-path="url(#clip0)">
+                        <g id="Group">
+                        <g id="Group_2">
+                        <path id="Vector" d="M71.5605 24.2635L49.0605 8.63848C48.4746 8.23155 47.5253 8.23155 46.9395 8.63848C46.3535 9.04542 46.3535 9.7046 46.9395 10.1114L66.879 23.9583H1.50005C0.670922 23.9583 0 24.4242 0 25C0 25.5758 0.670922 26.0417 1.50005 26.0417H66.879L46.9395 39.8885C46.3535 40.2954 46.3535 40.9546 46.9395 41.3614C47.2324 41.5649 47.6163 41.6666 48.0001 41.6666C48.3839 41.6666 48.7676 41.5649 49.0607 41.3614L71.5607 25.7364C72.1465 25.3296 72.1465 24.6704 71.5605 24.2635Z"/>
+                        </g>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="72" height="50" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <article class="footer-mid">
+        <div class="footer-mid-certification">
+            
+        </div>
+            <div class="footer-mid-social">
+                <img src="./Img/instagram.svg" alt="">
+                <img src="./Img/twitter.svg" alt="">
+                <img src="./Img/linkedin.svg" alt="">
+                <img src="./Img/facebook.svg" alt="">
+            </div>
+    </article>
+</section>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+<script src="./js/products.js"></script>
+</body>
+</html>

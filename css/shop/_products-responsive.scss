@@ -1,0 +1,194 @@
+@media all and (max-width: 1050px) {
+    .products-whole {
+        .products-top {
+            background-color: #FEF2E1;
+            display: flex;
+            flex-direction: column;
+            column-gap: 100px;
+
+            .product-top-left {
+                .products-image-main {
+                    img {
+                        width: 600px;
+                        margin: 0 10%;
+                    }
+                }
+
+                .products-image-thumb {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-grow: 1;
+                    // width: 80%;
+                    // margin: auto;
+                    margin-top: 20px;
+
+                    img {
+                        width: 140px;
+                    }
+
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+
+        //!! Product mid starts
+
+        .product-mid {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            .product-mid-img {
+                .product-mid-img-left {
+                    img {
+                        width: 600px;
+                    }
+                }
+
+                .product-mid-img-txt {
+                    display: none;
+                }
+            }
+
+            .product-mid-header {
+                font-size: 50px;
+                text-align: center;
+            }
+
+            .product-mid-img-txt-mob {
+                display: block;
+
+                .prod-mid-img-txt-mob-num {
+                    position: absolute;
+                    right: 20%;
+                    top: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-between;
+
+                    button {
+                        margin-top: 140px;
+                        color: white;
+                        background-color: #0c251f;
+                        border-radius: 50px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+
+                        &:focus {
+                            background-color: #FF5100;
+                        }
+                    }
+                }
+
+                #prod-mid-img-txt-mob-txt {
+                    width: 70%;
+                    margin: auto;
+
+                    #prod-mid-img-txt-mob-txt2 {
+                        position: relative;
+                        top: -30%;
+                        z-index: 100;
+                        // color: #FF5100;
+                    }
+
+                    #prod-mid-img-txt-mob-txt3 {
+                        position: relative;
+                        top: -50%;
+                        z-index: 100;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//!! Mobile view starts
+
+@media all and (max-width: 500px) {
+    .products-whole {
+        .products-top {
+            .product-top-left {
+                .products-image-main {
+                    img {
+                        width: 100vw;
+                        margin: 0;
+                    }
+                }
+
+                .products-image-thumb {
+                    margin-top: 20px;
+
+                    img {
+                        width: 20vw;
+                    }
+                }
+            }
+        }
+
+        //?? Product mid starts
+
+        .product-mid {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+
+            .product-mid-header {
+                font-size: 22px;
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .product-mid-img {
+                .product-mid-img-left {
+                    img {
+                        width: 400px;
+                    }
+                }
+
+                .product-mid-img-txt {
+                    display: none;
+                }
+            }
+
+            .product-mid-img-txt-mob {
+                display: block;
+
+                .prod-mid-img-txt-mob-num {
+                    position: absolute;
+                    right: 20%;
+                    top: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-between;
+
+                    button {
+                        margin-top: 70px;
+                        color: white;
+                        background-color: #0c251f;
+                        border-radius: 50px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+
+                        &:focus {
+                            background-color: #FF5100;
+                        }
+                    }
+                }
+
+                #prod-mid-img-txt-mob-txt {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .product-last {
+            margin-top: -160px;
+        }
+    }
+}
