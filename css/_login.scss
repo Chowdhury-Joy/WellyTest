@@ -1,0 +1,57 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 5% auto;
+
+
+    .login-top {
+        background-color: #ff5100bd;
+        color: #fff;
+        text-align: center;
+
+        h2 {}
+    }
+
+    .login-mid {
+        padding: 20px;
+        background-color: #fff;
+
+        >* {
+            width: 100%;
+            height: 35px;
+        }
+    }
+
+    .login-last {
+        text-align: center;
+
+        .signinbtn {
+            @extend .button-3;
+        }
+
+        .no-account {
+            a {
+                text-decoration: none;
+                color: #ff5100bd;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+
+@media all and (max-width: 1050px) {
+    .login {
+        width: 40vw;
+    }
+}
+
+
+
+@media all and (max-width: 500px) {
+    .login {
+        width: 80vw;
+    }
+}

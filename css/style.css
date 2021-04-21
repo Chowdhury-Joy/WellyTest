@@ -69,7 +69,7 @@
   z-index: 3;
 }
 
-.button-3, .index-promo .index-promo-1 .index-promo-1-txt .index-promo-1-txt-btn, .index-promo .index-promo-2 .index-promo-2-txt .index-promo-2-txt-btn, .products-whole .products-top .product-top-right .pro-top-rig-btn, .products-whole .product-last .product-last-top .product-last-write {
+.button-3, .login .login-last .signinbtn, .signup .sgnup-btn, .index-promo .index-promo-1 .index-promo-1-txt .index-promo-1-txt-btn, .index-promo .index-promo-2 .index-promo-2-txt .index-promo-2-txt-btn, .products-whole .products-top .product-top-right .pro-top-rig-btn, .products-whole .product-last .product-last-top .product-last-write {
   border: 1px solid #FF5100;
   color: #FF5100;
   padding: 10px 40px;
@@ -84,7 +84,7 @@
   letter-spacing: 2px;
 }
 
-.button-3:hover, .index-promo .index-promo-1 .index-promo-1-txt .index-promo-1-txt-btn:hover, .index-promo .index-promo-2 .index-promo-2-txt .index-promo-2-txt-btn:hover, .products-whole .products-top .product-top-right .pro-top-rig-btn:hover, .products-whole .product-last .product-last-top .product-last-write:hover {
+.button-3:hover, .login .login-last .signinbtn:hover, .signup .sgnup-btn:hover, .index-promo .index-promo-1 .index-promo-1-txt .index-promo-1-txt-btn:hover, .index-promo .index-promo-2 .index-promo-2-txt .index-promo-2-txt-btn:hover, .products-whole .products-top .product-top-right .pro-top-rig-btn:hover, .products-whole .product-last .product-last-top .product-last-write:hover {
   background-color: #FF5100;
   color: white;
 }
@@ -146,6 +146,10 @@
 
 .nav-container .main-nav .nav-whole .nav-right > * {
   margin: 0 20px;
+}
+
+.nav-container .main-nav .nav-whole .nav-right .nav-button {
+  z-index: 1111;
 }
 
 .nav-container .main-nav .nav-whole .nav-right .search-full {
@@ -396,6 +400,101 @@
   }
   .nav-container .main-nav .nav-whole .nav-right .desk {
     display: none;
+  }
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25vw;
+  margin: 5% auto;
+}
+
+.login .login-top {
+  background-color: #ff5100bd;
+  color: #fff;
+  text-align: center;
+}
+
+.login .login-mid {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.login .login-mid > * {
+  width: 100%;
+  height: 35px;
+}
+
+.login .login-last {
+  text-align: center;
+}
+
+.login .login-last .no-account a {
+  text-decoration: none;
+  color: #ff5100bd;
+  font-weight: 900;
+}
+
+@media all and (max-width: 1050px) {
+  .login {
+    width: 40vw;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .login {
+    width: 80vw;
+  }
+}
+
+.signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25vw;
+  margin: 5% auto;
+}
+
+.signup .signup-top {
+  background-color: #ff5100bd;
+  color: #fff;
+  text-align: center;
+}
+
+.signup .signup-form {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.signup .signup-form > * {
+  width: 100%;
+  height: 35px;
+}
+
+.signup .sgnup-btn {
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (max-width: 1050px) {
+  .signup {
+    width: 40vw;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .signup {
+    width: 80vw;
   }
 }
 
