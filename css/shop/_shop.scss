@@ -4,10 +4,12 @@
     background-color: rgba(180, 161, 161, 0.76);
     height: 50px;
 
-    ul{
+    ul {
+        padding-left: 0;
         display: flex;
         flex-grow: 1;
         justify-content: space-evenly;
+        margin-right: 0;
         li{
             list-style: none;
             margin: 1% 0;
@@ -90,12 +92,11 @@ font-size: 3rem;
 
 @media all and (max-width: 500px){
     .shop-banner-nav {
-
+        width: 100vw;
         height: 50px;
     
         ul{
             display: flex;
-            flex-grow: 1;
             justify-content: space-evenly;
             li{
                 list-style: none;
@@ -103,9 +104,9 @@ font-size: 3rem;
             }
         }
         .shop-banner-button{
-            font-size: 12px;
+            font-size: 10px;
             letter-spacing: 0;
-            margin: 0 8px;
+            margin: 0 5px;
         }
     }
     #shop-whole{

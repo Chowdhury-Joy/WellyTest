@@ -1530,6 +1530,7 @@
 }
 
 .shop-banner-nav ul {
+  padding-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1539,6 +1540,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-right: 0;
 }
 
 .shop-banner-nav ul li {
@@ -1652,15 +1654,13 @@
 
 @media all and (max-width: 500px) {
   .shop-banner-nav {
+    width: 100vw;
     height: 50px;
   }
   .shop-banner-nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -1670,9 +1670,9 @@
     margin: 4% 0;
   }
   .shop-banner-nav .shop-banner-button {
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 0;
-    margin: 0 8px;
+    margin: 0 5px;
   }
   #shop-whole .shop-Ptype {
     margin-top: 5px;
