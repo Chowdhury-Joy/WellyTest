@@ -1139,7 +1139,7 @@
   }
   .main-itt {
     width: 100%;
-    height: 30vh;
+    height: 55vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1156,6 +1156,7 @@
   .main-itt .images-wrapper img {
     position: absolute;
     width: 80%;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
     outline: none;
